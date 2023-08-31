@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.inputBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: radial-gradient(
+      178.94% 106.41% at 26.42% 106.41%,
+      #fff7b1 0%,
+      rgba(255, 255, 255, 0) 71.88%
+    )
+    #ffffff;
+  border-radius: 23px;
+  transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+  cursor: pointer;
+  margin: 25px;
+  padding: 20px;
+}
+.input {
+  width: 200px;
+  padding: 5px;
+  border: 2px solid #eee;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+.button {
+  margin-top: 10px;
+  background: #5e5df0;
+  border-radius: 999px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  opacity: 1;
+  padding: 8px 18px;
+  border: 0;
+}
+.inputError {
+  margin-top: 10px;
+  width: 200px;
+  padding: 5px;
+  border: 2px solid red;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}

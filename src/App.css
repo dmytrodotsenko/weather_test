@@ -2,9 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text {
+  text-transform: uppercase;
+  font-family: "Gambetta", serif;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: rebeccapurple;
+  outline: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {

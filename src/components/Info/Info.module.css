@@ -1,0 +1,36 @@
+.icon {
+  width: 100px;
+  height: 100px;
+}
+.container {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.metricValues {
+  display: flex;
+  align-items: center;
+}
+.metricValues span {
+  margin-left: 5px;
+}
+.info {
+  margin: 25px;
+  width: 350px;
+  height: 235px;
+  position: relative;
+  padding: 25px;
+  background: radial-gradient(
+      178.94% 106.41% at 26.42% 106.41%,
+      #fff7b1 0%,
+      rgba(255, 255, 255, 0) 71.88%
+    )
+    #ffffff;
+  border-radius: 23px;
+}
+.mainContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
